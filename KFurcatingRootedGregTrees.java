@@ -18,7 +18,7 @@ import java.math.RoundingMode;
  *  
  * License:
  * Please cite: 
- * Armin Hoenen, Steffen Eger, Ralf Gehrke. (2017) Combinatorial Evidence on the Incidences of Root Bifurcations in Arbres Reels and Stemmata. Proceedings of the 15th Meeting on the Mathematics of Language (MoL). Association for Computational Linguistics (ACL).
+ * Armin Hoenen, Steffen Eger, Ralf Gehrke. (2017) How many stemmata with root degree k?. Proceedings of the 15th Meeting on the Mathematics of Language (MoL). Association for Computational Linguistics (ACL).
  *
  */
 
