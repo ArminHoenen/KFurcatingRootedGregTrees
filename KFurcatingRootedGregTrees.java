@@ -10,6 +10,7 @@ import java.math.MathContext;
 import java.math.RoundingMode;
 
 /**
+ * Armin Hoenen, 2016/2017
  * This code computes numbers of rooted Greg trees Flight (1990), which are trees with labeled and unlabeled nodes where
  * the latter must have an outdegree of at least 2. These trees have been used as mathematical models for stemmata
  * that is manuscript genealogies. For details, see Hoenen et al. (2017).
