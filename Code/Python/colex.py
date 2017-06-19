@@ -1,8 +1,6 @@
 # Number of compositions of n with k parts, each between a and b
 # 01.05.2017
 # Steffen Eger
-# Please cite: Armin Hoenen, Steffen Eger, Ralf Gehrke. (2017) How many stemmata with root degree k?. Proceedings of the 15th Meeting on the Mathematics of Language (MoL). Association for Computational Linguistics (ACL).
-
 
 class Colex:
     def __init__(self,n,k,a,b):
