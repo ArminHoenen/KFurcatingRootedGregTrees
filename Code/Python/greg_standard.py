@@ -3,7 +3,6 @@ import numpy as np
 #
 # An efficient implementation of the formula g(m,n) from the paper: C. Flight. (1990) How many stemmata?. Manuscripta 34(2), 122-128.
 # See also: https://oeis.org/A005264
-# Please cite: Armin Hoenen, Steffen Eger, Ralf Gehrke. (2017) How many stemmata with root degree k?. Proceedings of the 15th Meeting on the Mathematics of Language (MoL). Association for Computational Linguistics (ACL).
 
 
 def greg2(n):
