@@ -133,10 +133,11 @@ public class KFurcatingRootedGregTrees {
            
          rowsGr.add(act);
        }//for m
-       
+           
        BigInteger previousSum=BigInteger.valueOf(1);
        //System.out.println("Number of rooted Greg trees.");
-       
+
+	System.out.println("m=1 1");
        //supercontainer with an ArrayList<BigInteger> for each m, which has numbers of root 1..k furcating trees
        ArrayList<ArrayList<BigInteger>> allkFurcs=new ArrayList<ArrayList<BigInteger>>();
        
