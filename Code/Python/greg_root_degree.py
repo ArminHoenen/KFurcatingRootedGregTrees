@@ -4,8 +4,6 @@
 # Computing numbers of Greg trees with root degrees k and m labeled and n unlabeled nodes
 # Steffen Eger
 # 01.05.2017 
-# Please cite: Armin Hoenen, Steffen Eger, Ralf Gehrke. (2017) How many stemmata with root degree k?. Proceedings of the 15th Meeting on the Mathematics of Language (MoL). Association for Computational Linguistics (ACL).
-
 
 import sys,numpy as np,itertools
 from scipy.special import binom,factorial
