@@ -43,7 +43,7 @@ public class KFurcatingRootedGregTrees {
 						 "compute numbers for m larger than 30, we recommend a code update"+ 
 						 "with more hardcoded or disc-saved initial values and some other speed-up ideas"+
 						 "as mentioned in the comments");
-	    
+	 maxlim+=1;   
     	 rowsGr=new ArrayList<BigInteger[]>();
 
          /*
