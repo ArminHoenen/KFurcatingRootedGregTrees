@@ -15,6 +15,6 @@ bifurcations, multifurcations and of multifurcations divided by bifurcations (se
 <b>Python</b>
 - Copy all three classes into the same location, make sure all required packages are installed (e.g. scipy).
 - Call on commandline: "python greg_root_degree.py <i>m</i>"<br/>
-  Each line (k=1 .. m) of the output will give the exact number of k-furcating rooted Greg trees at m labeled nodes and their proportion.
+  Each line (k=1 .. m) of the output will give the exact number of k-furcating rooted Greg trees at m labeled nodes and their proportion among all trees with m survivors.
 # Please cite
 A. Hoenen, S. Eger and R. Gehrke. How many stemmata with root degree k? Proceedings of MOL 2017.
