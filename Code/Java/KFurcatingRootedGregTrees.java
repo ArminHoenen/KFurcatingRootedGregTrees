@@ -216,6 +216,7 @@ public class KFurcatingRootedGregTrees {
        
        
        //printing out percentages of root unifurcating, bifurcating and multifurcating trees
+       //plus of multifurcating/bifurcating trees as alluded to in Hering (1967) which seems to have a slight rounding anomalie for m=3
        System.out.println();
        System.out.println("Relative frequencies (rounded to third decimal digit):");
        System.out.println("m propUnif propBif propMultif propHering");
