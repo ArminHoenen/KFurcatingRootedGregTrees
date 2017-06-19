@@ -31,8 +31,8 @@ public class KFurcatingRootedGregTrees {
 	
     public static void main (String[] args)throws Exception{
 	perm=BigInteger.valueOf(0);
-	//int maxlim=16;//until this value of m, numbers are computed
-    	int maxlim=Integer.parseInt(args[0]);
+	int maxlim=16;//until this value of m, numbers are computed
+    	//int maxlim=Integer.parseInt(args[0]);//for use in runnable jar File
 	if (maxlim<=5){
 		System.out.println("Please consider values in Hering (1967) or choose m>5. Aborting...");
 		throw new Exception();
