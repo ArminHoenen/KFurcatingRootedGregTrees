@@ -220,7 +220,7 @@ public class KFurcatingRootedGregTrees {
        System.out.println("Relative frequencies (rounded to third decimal digit):");
        System.out.println("m propUnif propBif propMultif propHering");
        System.out.println("m=1 1.0 0.0 0.0 NA");
-       System.out.println("m=2 0.667 0.333 0.0 NA");    
+       System.out.println("m=2 0.667 0.333 0.0 0.0");    
 	        
        for (int a=1;a<allkFurcs.size();a++){
     	   System.out.print("m= "+(a+2)+" "); //all furcs start at m=3, m=1 and m=2 trivial
