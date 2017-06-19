@@ -33,8 +33,13 @@ public class KFurcatingRootedGregTrees {
 	
     public static void main (String[] args)throws Exception{
 		perm=BigInteger.valueOf(0);
-		int maxlim=16;//until this value of m, numbers are computed
-    	
+		//int maxlim=16;//until this value of m, numbers are computed
+    		int maxlim=Integer.parseInt(args[0]);
+	        if (maxlim>20)System.out.println("Warning: Computation may take (quite) a while ...\nIf you need to"+ 
+						 "compute numbers for m larger than 30, we recommend a code update"+ 
+						 "with more hardcoded or disc-saved initial values and some other speed-up ideas"+
+						 "as mentioned in the comments");
+	    
     	 rowsGr=new ArrayList<BigInteger[]>();
 
          /*
