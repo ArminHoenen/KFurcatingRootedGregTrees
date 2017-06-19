@@ -45,7 +45,13 @@ public class KFurcatingRootedGregTrees {
 						 "as mentioned in the comments");
 	 maxlim+=1;   
     	 rowsGr=new ArrayList<BigInteger[]>();
-
+	 //Printing table header (columns)
+	 System.out.print("k=");
+         for (int a=0;a<maxlim;a++){
+    	    System.out.print(a);
+    	    if (a<maxlim-1)System.out.print(" ");
+          }
+          System.out.print("\n");
          /*
           * Now, Table II from Flight (1990) is hard-coded for three reasons. 
           * a) later, for computation of k-furcating trees, numbers will be based on different (m,n) trees
