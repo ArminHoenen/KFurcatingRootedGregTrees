@@ -46,8 +46,8 @@ public class KFurcatingRootedGregTrees {
 	 maxlim+=1;   
     	 rowsGr=new ArrayList<BigInteger[]>();
 	 //Printing table header (columns)
-	 System.out.print("k=");
-         for (int a=0;a<maxlim;a++){
+	 System.out.print(" k=");
+         for (int a=1;a<maxlim;a++){
     	    System.out.print(a);
     	    if (a<maxlim-1)System.out.print(" ");
           }
@@ -218,7 +218,12 @@ public class KFurcatingRootedGregTrees {
        
        
        //printing out percentages of root unifurcating, bifurcating and multifurcating trees
+       System.out.println();
        System.out.println("relative frequencies:");
+       System.out.println("m propUnif propBif propMultif propHering");
+       System.out.println("m=1 1.0 0.0 0.0 NA");
+       System.out.println("m=2 0.66 0.33 0.0 NA");    
+	        
        for (int a=1;a<allkFurcs.size();a++){
     	   System.out.print("m= "+(a+2)+" "); //all furcs start at m=3, m=1 and m=2 trivial
     	   
