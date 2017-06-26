@@ -10,7 +10,7 @@ Use the runnable jar "kfurc.jar" by command line call: "java -jar kfurc.jar <i>m
 where <i>m</i> must be a positive Integer which is the maximum <i>m</i> for which you want a result.<br/><br/>
 The output will be 2 tables, the first will give per line (m=1 .. maximum m specified by user) the exact numbers of trees
 for each possible k (k<=m). The second gives per line (m=1 .. maximum m specified by user) the proportions of unifurcations,
-bifurcations, multifurcations and of multifurcations divided by bifurcations (see Hering (1967).<br/><br/>
+bifurcations, multifurcations and of multifurcations divided by bifurcations (see Hering (1967)).<br/><br/>
 <b>Python</b>
 - Copy all three classes into the same location, make sure all required packages are installed (e.g. scipy).
 - Call on command line: "python greg_root_degree.py <i>m</i>"<br/>
