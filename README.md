@@ -1,5 +1,5 @@
 # KFurcatingRootedGregTrees
-This project provides code for computing the numbers of rooted Greg trees with root degree k, as described in the paper mentioned herebelow.
+This project provides code for computing the numbers of rooted Greg trees with root degree k, as described in the paper mentioned below.
 # Usage
 <b>Java</b>
 - Create a new Class named "KFurcatingRootedGregTrees" and paste the Java Code there, add package declaration if necessary.<br/>
